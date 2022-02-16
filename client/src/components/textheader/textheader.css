@@ -1,0 +1,73 @@
+
+.welcome{
+    margin-top: 100px;
+    margin-left: 50px;
+    box-sizing: content-box;
+    background-color: #f4f3ee;
+    width: 500px;
+    height: 50px;
+    padding: 50px 30px;
+    display: flex;
+}
+
+
+
+.wrapper{
+
+    margin: 100px auto;
+    width: 500px;
+    color: black;
+    box-sizing: content-box;
+    background-color: #f4f3ee;
+    height: 50px;
+    padding: 50px 30px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.words{
+    overflow: hidden;
+    
+
+}
+.blogtext{
+    font-size: 35px;
+    margin-left: 40px;
+    
+}
+.span{
+    margin-left: 25px;
+    display: block;
+    height: 100%;
+    padding-left: 10px;
+    color: #0e6ff0;
+    animation: spin_words 6s infinite;
+    font-size: 50px;
+    
+}
+@keyframes spin_words {
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+}

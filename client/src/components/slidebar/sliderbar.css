@@ -1,0 +1,65 @@
+.slidebar{
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slidebarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slidebarTitle{
+    margin: 10px;
+    font-size: 30px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4 ;
+    border-bottom: 1px solid #a7a4a4 ;
+    font-family: 'Playfair Display', serif;
+    color:#222 ;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+.text1{
+    font-size: 18px;
+}
+.slidebarItem >img{
+    margin-top: 15px;
+    height: 50vh;
+    width: 40vh;
+
+}
+.slidebarItem > p{
+    padding:30px ;
+}
+.slidebarList{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.slidebarListItem{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.slidebarSocial{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slidebarIcon{
+    font-size: 22px;
+    margin-left:10px ;
+    cursor: pointer;
+}
+.slidebarIcon:hover{
+    transform: scale(1.2);
+}
