@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
-mongoose.connect(process.env.MONGO_URL.toString(),)
+mongoose.connect(process.env.MONGO_URL,)
     .then(() => console.log('DB Connected'))
     .catch((err) => console.log(err));
 
