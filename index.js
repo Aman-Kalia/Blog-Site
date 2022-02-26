@@ -31,7 +31,7 @@ const upload = multer({storage:storage});
 app.post('/server/upload', upload.single("file"),(req,res)=>{
     res.status(200).json("File has been uploaded");
 })
-app.get('/',authRoute);
+// app.get('/',authRoute);
 app.use('/server/auth', authRoute);
 app.use('/server/users', userRoute);
 app.use('/server/posts', postRoute);
