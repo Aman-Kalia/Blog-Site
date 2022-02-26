@@ -38,9 +38,9 @@ app.use('/server/posts', postRoute);
 app.use('/server/categories', categoryRoute);
 
 
-// if(process.env.NODE_ENV=="production"){
-//     app.use(express.static("../client/build"))
-// }
+if(process.env.NODE_ENV=="production"){
+    app.use(express.static("../client/build"))
+}
 
 const PORT=process.env.PORT || 5000;
 app.listen(PORT, (req, res) => {
